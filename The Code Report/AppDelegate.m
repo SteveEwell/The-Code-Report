@@ -10,6 +10,9 @@
 
 @interface AppDelegate ()
 
+- (void)createObjects;
+- (void)fetchObjects;
+
 @end
 
 @implementation AppDelegate
@@ -17,6 +20,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.persistentStack = [[TCRPersistentStack alloc]init];
     return YES;
 }
 
@@ -40,6 +44,28 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    [self.persistentStack saveContext];
+}
+
+- (void)createObjects {
+    NSManagedObject *wholeMilk = [NSEntityDescription insertNewObjectForEntityForName:@"Item" inManagedObjectContext:self.persistentStack.managedObjectContext];
+    [wholeMilk setValue:@"Whole Milk" forKey:@"itemDescription"];
+    [wholeMilk setValue:@3 forKey:@"itemNumber"];
+    [wholeMilk setValue:@NO forKey:@"pendingDelete"];
+    
+    NSManagedObject *twoPercentMilk = [NSEntityDescription insertNewObjectForEntityForName:@"Item" inManagedObjectContext:self.persistentStack.managedObjectContext];
+    [twoPercentMilk setValue:@"Two Percent Milk" forKey:@"itemDescription"];
+    [twoPercentMilk setValue:@8 forKey:@"itemNumber"];
+    [twoPercentMilk setValue:@NO forKey:@"pendingDelete"];
+    [self.persistentStack saveContext];
+}
+
+- (void)fetchObjects {
+    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:@"Item"];
+    NSArray *objects = [self.persistentStack.managedObjectContext executeFetchRequest:fetchRequest error:nil];
+    for (NSManagedObject *object in objects) {
+        NSLog(@"%@", object);
+    }
 }
 
 @end

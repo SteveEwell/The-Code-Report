@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA4EDA001B96EDCD001590AB /* TCRItemListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4ED9FF1B96EDCD001590AB /* TCRItemListViewController.m */; settings = {ASSET_TAGS = (); }; };
+		AA4EDA011B96EDCD001590AB /* TCRItemListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4ED9FF1B96EDCD001590AB /* TCRItemListViewController.m */; settings = {ASSET_TAGS = (); }; };
+		AA4EDA041B96F288001590AB /* TCRItemDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4EDA031B96F288001590AB /* TCRItemDetailViewController.m */; settings = {ASSET_TAGS = (); }; };
+		AA4EDA051B96F288001590AB /* TCRItemDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4EDA031B96F288001590AB /* TCRItemDetailViewController.m */; settings = {ASSET_TAGS = (); }; };
+		AA4EDA081B972567001590AB /* TCRItemListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4EDA071B972567001590AB /* TCRItemListViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		AA4EDA091B972567001590AB /* TCRItemListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4EDA071B972567001590AB /* TCRItemListViewCell.m */; settings = {ASSET_TAGS = (); }; };
 		AAE05B421B95C29B00EBA238 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE05B411B95C29B00EBA238 /* main.m */; };
 		AAE05B451B95C29B00EBA238 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE05B441B95C29B00EBA238 /* AppDelegate.m */; };
-		AAE05B481B95C29B00EBA238 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE05B471B95C29B00EBA238 /* ViewController.m */; };
+		AAE05B481B95C29B00EBA238 /* TCRHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE05B471B95C29B00EBA238 /* TCRHomeViewController.m */; };
 		AAE05B4B1B95C29B00EBA238 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAE05B491B95C29B00EBA238 /* Main.storyboard */; };
 		AAE05B4D1B95C29B00EBA238 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAE05B4C1B95C29B00EBA238 /* Assets.xcassets */; };
 		AAE05B501B95C29B00EBA238 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAE05B4E1B95C29B00EBA238 /* LaunchScreen.storyboard */; };
 		AAE05B5B1B95C29B00EBA238 /* The_Code_ReportTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE05B5A1B95C29B00EBA238 /* The_Code_ReportTests.m */; };
 		AAE05B661B95C29B00EBA238 /* The_Code_ReportUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE05B651B95C29B00EBA238 /* The_Code_ReportUITests.m */; };
+		AAE05B751B95C42800EBA238 /* TCRPersistentStack.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE05B741B95C42800EBA238 /* TCRPersistentStack.m */; settings = {ASSET_TAGS = (); }; };
+		AAE05B761B95C42800EBA238 /* TCRPersistentStack.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE05B741B95C42800EBA238 /* TCRPersistentStack.m */; settings = {ASSET_TAGS = (); }; };
+		AAE05B7A1B95E23B00EBA238 /* TCRApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AAE05B781B95E23B00EBA238 /* TCRApp.xcdatamodeld */; settings = {ASSET_TAGS = (); }; };
+		AAE05B7B1B95E23B00EBA238 /* TCRApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AAE05B781B95E23B00EBA238 /* TCRApp.xcdatamodeld */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +45,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA4ED9FE1B96EDCD001590AB /* TCRItemListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCRItemListViewController.h; sourceTree = "<group>"; };
+		AA4ED9FF1B96EDCD001590AB /* TCRItemListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCRItemListViewController.m; sourceTree = "<group>"; };
+		AA4EDA021B96F288001590AB /* TCRItemDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCRItemDetailViewController.h; sourceTree = "<group>"; };
+		AA4EDA031B96F288001590AB /* TCRItemDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCRItemDetailViewController.m; sourceTree = "<group>"; };
+		AA4EDA061B972567001590AB /* TCRItemListViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCRItemListViewCell.h; sourceTree = "<group>"; };
+		AA4EDA071B972567001590AB /* TCRItemListViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCRItemListViewCell.m; sourceTree = "<group>"; };
 		AAE05B3D1B95C29B00EBA238 /* The Code Report.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Code Report.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAE05B411B95C29B00EBA238 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AAE05B431B95C29B00EBA238 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AAE05B441B95C29B00EBA238 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AAE05B461B95C29B00EBA238 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AAE05B471B95C29B00EBA238 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AAE05B461B95C29B00EBA238 /* TCRHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCRHomeViewController.h; sourceTree = "<group>"; };
+		AAE05B471B95C29B00EBA238 /* TCRHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCRHomeViewController.m; sourceTree = "<group>"; };
 		AAE05B4A1B95C29B00EBA238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AAE05B4C1B95C29B00EBA238 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAE05B4F1B95C29B00EBA238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +67,9 @@
 		AAE05B611B95C29B00EBA238 /* The Code ReportUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Code ReportUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAE05B651B95C29B00EBA238 /* The_Code_ReportUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = The_Code_ReportUITests.m; sourceTree = "<group>"; };
 		AAE05B671B95C29B00EBA238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAE05B731B95C42800EBA238 /* TCRPersistentStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCRPersistentStack.h; sourceTree = "<group>"; };
+		AAE05B741B95C42800EBA238 /* TCRPersistentStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCRPersistentStack.m; sourceTree = "<group>"; };
+		AAE05B791B95E23B00EBA238 /* TCRApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TCRApp.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,13 +122,20 @@
 			children = (
 				AAE05B431B95C29B00EBA238 /* AppDelegate.h */,
 				AAE05B441B95C29B00EBA238 /* AppDelegate.m */,
-				AAE05B461B95C29B00EBA238 /* ViewController.h */,
-				AAE05B471B95C29B00EBA238 /* ViewController.m */,
+				AAE05B461B95C29B00EBA238 /* TCRHomeViewController.h */,
+				AAE05B471B95C29B00EBA238 /* TCRHomeViewController.m */,
+				AA4ED9FE1B96EDCD001590AB /* TCRItemListViewController.h */,
+				AA4ED9FF1B96EDCD001590AB /* TCRItemListViewController.m */,
+				AA4EDA021B96F288001590AB /* TCRItemDetailViewController.h */,
+				AA4EDA031B96F288001590AB /* TCRItemDetailViewController.m */,
+				AA4EDA061B972567001590AB /* TCRItemListViewCell.h */,
+				AA4EDA071B972567001590AB /* TCRItemListViewCell.m */,
 				AAE05B491B95C29B00EBA238 /* Main.storyboard */,
 				AAE05B4C1B95C29B00EBA238 /* Assets.xcassets */,
 				AAE05B4E1B95C29B00EBA238 /* LaunchScreen.storyboard */,
-				AAE05B511B95C29B00EBA238 /* Info.plist */,
+				AAE05B781B95E23B00EBA238 /* TCRApp.xcdatamodeld */,
 				AAE05B401B95C29B00EBA238 /* Supporting Files */,
+				AAE05B771B95C43B00EBA238 /* Core Data Stack */,
 			);
 			path = "The Code Report";
 			sourceTree = "<group>";
@@ -117,6 +143,7 @@
 		AAE05B401B95C29B00EBA238 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AAE05B511B95C29B00EBA238 /* Info.plist */,
 				AAE05B411B95C29B00EBA238 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +165,15 @@
 				AAE05B671B95C29B00EBA238 /* Info.plist */,
 			);
 			path = "The Code ReportUITests";
+			sourceTree = "<group>";
+		};
+		AAE05B771B95C43B00EBA238 /* Core Data Stack */ = {
+			isa = PBXGroup;
+			children = (
+				AAE05B731B95C42800EBA238 /* TCRPersistentStack.h */,
+				AAE05B741B95C42800EBA238 /* TCRPersistentStack.m */,
+			);
+			name = "Core Data Stack";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +243,7 @@
 				TargetAttributes = {
 					AAE05B3C1B95C29B00EBA238 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = ES947SD9KT;
 					};
 					AAE05B551B95C29B00EBA238 = {
 						CreatedOnToolsVersion = 7.0;
@@ -270,9 +307,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAE05B481B95C29B00EBA238 /* ViewController.m in Sources */,
+				AAE05B481B95C29B00EBA238 /* TCRHomeViewController.m in Sources */,
+				AAE05B7A1B95E23B00EBA238 /* TCRApp.xcdatamodeld in Sources */,
+				AA4EDA041B96F288001590AB /* TCRItemDetailViewController.m in Sources */,
 				AAE05B451B95C29B00EBA238 /* AppDelegate.m in Sources */,
 				AAE05B421B95C29B00EBA238 /* main.m in Sources */,
+				AAE05B751B95C42800EBA238 /* TCRPersistentStack.m in Sources */,
+				AA4EDA001B96EDCD001590AB /* TCRItemListViewController.m in Sources */,
+				AA4EDA081B972567001590AB /* TCRItemListViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +323,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAE05B5B1B95C29B00EBA238 /* The_Code_ReportTests.m in Sources */,
+				AA4EDA091B972567001590AB /* TCRItemListViewCell.m in Sources */,
+				AA4EDA011B96EDCD001590AB /* TCRItemListViewController.m in Sources */,
+				AAE05B7B1B95E23B00EBA238 /* TCRApp.xcdatamodeld in Sources */,
+				AAE05B761B95C42800EBA238 /* TCRPersistentStack.m in Sources */,
+				AA4EDA051B96F288001590AB /* TCRItemDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,7 +460,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "The Code Report/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.ewell.The-Code-Report";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,7 +473,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "The Code Report/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.ewell.The-Code-Report";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +549,7 @@
 				AAE05B6C1B95C29B00EBA238 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AAE05B6D1B95C29B00EBA238 /* Build configuration list for PBXNativeTarget "The Code ReportTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +558,7 @@
 				AAE05B6F1B95C29B00EBA238 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AAE05B701B95C29B00EBA238 /* Build configuration list for PBXNativeTarget "The Code ReportUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,8 +567,22 @@
 				AAE05B721B95C29B00EBA238 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AAE05B781B95E23B00EBA238 /* TCRApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AAE05B791B95E23B00EBA238 /* TCRApp.xcdatamodel */,
+			);
+			currentVersion = AAE05B791B95E23B00EBA238 /* TCRApp.xcdatamodel */;
+			path = TCRApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = AAE05B351B95C29B00EBA238 /* Project object */;
 }

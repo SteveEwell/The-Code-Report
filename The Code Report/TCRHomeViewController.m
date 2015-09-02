@@ -6,13 +6,13 @@
 //  Copyright © 2015 Steve Ewell. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "TCRHomeViewController.h"
 
-@interface ViewController ()
+@interface TCRHomeViewController ()
 
 @end
 
-@implementation ViewController
+@implementation TCRHomeViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
