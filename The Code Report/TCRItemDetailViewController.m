@@ -7,6 +7,7 @@
 //
 
 #import "TCRItemDetailViewController.h"
+#import "TCRItemOM.h"
 
 @interface TCRItemDetailViewController ()
 
@@ -14,9 +15,9 @@
 
 @implementation TCRItemDetailViewController
 
-- (void)setDetailItem:(id)newDetailItem {
-    if (_detailItem != newDetailItem) {
-        _detailItem = newDetailItem;
+- (void)setItem:(id)newItem {
+    if (_item != newItem) {
+        _item = newItem;
         
         // Update the view.
         [self configureView];
@@ -25,15 +26,16 @@
 
 - (void)configureView {
     // Update the user interface for the detail item.
-    if (self.detailItem) {
-        self.numberLabel.text = [[self.detailItem valueForKey:@"itemNumber"] description];
-        self.descriptionLabel.text = [[self.detailItem valueForKey:@"itemDescription"] description];
+    if (self.item) {
+        self.numberLabel.text = [self.item.itemNumber stringValue];
+        self.descriptionLabel.text = self.item.itemDescription;
     }
 }
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
     [self configureView];
 }
 
@@ -42,14 +44,14 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    if ([[segue identifier] isEqualToString:@"embededSegue"]) {
+        TCRItemOM *segueItem = self.item;
+        self.dateListViewControllerNC = segue.destinationViewController;
+        self.dateListViewController = (TCRDateListViewController *)[self.dateListViewControllerNC visibleViewController];
+        [self.dateListViewController setItem:segueItem];
+    }
 }
-*/
+
 
 @end

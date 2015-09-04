@@ -7,13 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TCRDateListViewController.h"
+
+@class TCRItemOM;
 
 @interface TCRItemDetailViewController : UIViewController
 
-@property (strong, nonatomic) id detailItem;
 @property (weak, nonatomic) IBOutlet UILabel *numberLabel;
 @property (weak, nonatomic) IBOutlet UILabel *descriptionLabel;
-
+@property (strong, nonatomic) TCRItemOM *item;
+@property (strong, nonatomic) TCRDateListViewController *dateListViewController;
+@property (strong, nonatomic) UINavigationController *dateListViewControllerNC;
 
 
 @end

@@ -25,6 +25,8 @@
 		AAB0EBBE1B984694004F4265 /* TCRDateOM+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB0EBB21B984694004F4265 /* TCRDateOM+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
 		AAB0EBBF1B984694004F4265 /* TCRDateOM.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB0EBB41B984694004F4265 /* TCRDateOM.m */; settings = {ASSET_TAGS = (); }; };
 		AAB0EBC01B984694004F4265 /* TCRDateOM.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB0EBB41B984694004F4265 /* TCRDateOM.m */; settings = {ASSET_TAGS = (); }; };
+		AAB0EBC81B986221004F4265 /* TCRDateListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB0EBC71B986221004F4265 /* TCRDateListViewController.m */; settings = {ASSET_TAGS = (); }; };
+		AAB0EBC91B986221004F4265 /* TCRDateListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB0EBC71B986221004F4265 /* TCRDateListViewController.m */; settings = {ASSET_TAGS = (); }; };
 		AAE05B421B95C29B00EBA238 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE05B411B95C29B00EBA238 /* main.m */; };
 		AAE05B451B95C29B00EBA238 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE05B441B95C29B00EBA238 /* AppDelegate.m */; };
 		AAE05B481B95C29B00EBA238 /* TCRHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE05B471B95C29B00EBA238 /* TCRHomeViewController.m */; };
@@ -75,6 +77,8 @@
 		AAB0EBB21B984694004F4265 /* TCRDateOM+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TCRDateOM+CoreDataProperties.m"; sourceTree = "<group>"; };
 		AAB0EBB31B984694004F4265 /* TCRDateOM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCRDateOM.h; sourceTree = "<group>"; };
 		AAB0EBB41B984694004F4265 /* TCRDateOM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCRDateOM.m; sourceTree = "<group>"; };
+		AAB0EBC61B986221004F4265 /* TCRDateListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCRDateListViewController.h; sourceTree = "<group>"; };
+		AAB0EBC71B986221004F4265 /* TCRDateListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCRDateListViewController.m; sourceTree = "<group>"; };
 		AAE05B3D1B95C29B00EBA238 /* The Code Report.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Code Report.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAE05B411B95C29B00EBA238 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AAE05B431B95C29B00EBA238 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -130,6 +134,8 @@
 				AA4ED9FF1B96EDCD001590AB /* TCRItemListViewController.m */,
 				AA4EDA021B96F288001590AB /* TCRItemDetailViewController.h */,
 				AA4EDA031B96F288001590AB /* TCRItemDetailViewController.m */,
+				AAB0EBC61B986221004F4265 /* TCRDateListViewController.h */,
+				AAB0EBC71B986221004F4265 /* TCRDateListViewController.m */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -364,6 +370,7 @@
 				AAE05B7A1B95E23B00EBA238 /* TCRApp.xcdatamodeld in Sources */,
 				AA4EDA041B96F288001590AB /* TCRItemDetailViewController.m in Sources */,
 				AAE05B451B95C29B00EBA238 /* AppDelegate.m in Sources */,
+				AAB0EBC81B986221004F4265 /* TCRDateListViewController.m in Sources */,
 				AAE05B421B95C29B00EBA238 /* main.m in Sources */,
 				AAB0EBB71B984694004F4265 /* TCRDepartmentOM.m in Sources */,
 				AAB0EBBF1B984694004F4265 /* TCRDateOM.m in Sources */,
@@ -391,6 +398,7 @@
 				AA4EDA051B96F288001590AB /* TCRItemDetailViewController.m in Sources */,
 				AAB0EBBA1B984694004F4265 /* TCRItemOM+CoreDataProperties.m in Sources */,
 				AAB0EBBC1B984694004F4265 /* TCRItemOM.m in Sources */,
+				AAB0EBC91B986221004F4265 /* TCRDateListViewController.m in Sources */,
 				AAB0EBB61B984694004F4265 /* TCRDepartmentOM+CoreDataProperties.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

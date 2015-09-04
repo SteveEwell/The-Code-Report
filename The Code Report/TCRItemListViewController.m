@@ -9,6 +9,7 @@
 #import "TCRItemListViewController.h"
 #import "AppDelegate.h"
 #import "TCRPersistentStack.h"
+#import "TCRItemOM.h"
 @interface TCRItemListViewController ()
 
 -(NSNumber *)randomItemNumber;
@@ -48,9 +49,9 @@
 }
 
 - (void)configureCell:(UITableViewCell *)cell atIndexPath:(NSIndexPath *)indexPath {
-    NSManagedObject *object = [self.fetchedResultsController objectAtIndexPath:indexPath];
-    cell.textLabel.text = [[object valueForKey:@"itemNumber"] description];
-    cell.detailTextLabel.text = [[object valueForKey:@"itemDescription"] description];
+    TCRItemOM *item = [self.fetchedResultsController objectAtIndexPath:indexPath];
+    cell.textLabel.text = [item.itemNumber stringValue];
+    cell.detailTextLabel.text = item.itemDescription;
 }
 
 
@@ -80,9 +81,9 @@
  - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
      if ([[segue identifier] isEqualToString:@"showItemDetail"]) {
          NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-         NSManagedObject *object = [[self fetchedResultsController] objectAtIndexPath:indexPath];
+         TCRItemOM *item = [[self fetchedResultsController] objectAtIndexPath:indexPath];
          TCRItemDetailViewController *controller = (TCRItemDetailViewController *)[segue destinationViewController];
-         [controller setDetailItem:object];
+         [controller setItem:item];
          controller.navigationItem.leftItemsSupplementBackButton = YES;
      }
  }
@@ -111,7 +112,7 @@
     
     // Edit the section name key path and cache name if appropriate.
     // nil for section name key path means "no sections".
-    NSFetchedResultsController *aFetchedResultsController = [[NSFetchedResultsController alloc] initWithFetchRequest:fetchRequest managedObjectContext:[appDelegate.persistentStack managedObjectContext] sectionNameKeyPath:nil cacheName:@"ItemCache"];
+    NSFetchedResultsController *aFetchedResultsController = [[NSFetchedResultsController alloc] initWithFetchRequest:fetchRequest managedObjectContext:[appDelegate.persistentStack managedObjectContext] sectionNameKeyPath:nil cacheName:@"Master"];
     aFetchedResultsController.delegate = self;
     self.fetchedResultsController = aFetchedResultsController;
     
