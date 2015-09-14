@@ -1,15 +1,16 @@
 //
-//  TCRDateOM.m
+//  TCRItem.m
 //  The Code Report
 //
-//  Created by Steve Ewell on 9/3/15.
+//  Created by Steve Ewell on 9/12/15.
 //  Copyright © 2015 Steve Ewell. All rights reserved.
 //
 
-#import "TCRDateOM.h"
-#import "TCRItemOM.h"
+#import "TCRItem.h"
+#import "TCRDate.h"
+#import "TCRDepartment.h"
 
-@implementation TCRDateOM
+@implementation TCRItem
 
 // Insert code here to add functionality to your managed object subclass
 

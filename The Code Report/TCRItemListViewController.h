@@ -10,12 +10,12 @@
 #import <CoreData/CoreData.h>
 #import "TCRItemDetailViewController.h"
 
-@class TCRItemOM;
+@class TCRItem;
 
 @interface TCRItemListViewController : UITableViewController <NSFetchedResultsControllerDelegate>
 
 @property (strong, nonatomic) TCRItemDetailViewController *itemDetailViewController;
-@property (strong, nonatomic) TCRItemOM *item;
+@property (strong, nonatomic) TCRItem *item;
 
 @property (strong, nonatomic) NSFetchedResultsController *fetchedResultsController;
 

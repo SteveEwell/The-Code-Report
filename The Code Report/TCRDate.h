@@ -1,19 +1,19 @@
 //
-//  TCRDateOM.h
+//  TCRDate.h
 //  The Code Report
 //
-//  Created by Steve Ewell on 9/3/15.
+//  Created by Steve Ewell on 9/12/15.
 //  Copyright © 2015 Steve Ewell. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
 
-@class TCRItemOM;
+@class TCRItem;
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface TCRDateOM : NSManagedObject
+@interface TCRDate : NSManagedObject
 
 // Insert code here to declare functionality of your managed object subclass
 
@@ -21,4 +21,4 @@ NS_ASSUME_NONNULL_BEGIN
 
 NS_ASSUME_NONNULL_END
 
-#import "TCRDateOM+CoreDataProperties.h"
+#import "TCRDate+CoreDataProperties.h"

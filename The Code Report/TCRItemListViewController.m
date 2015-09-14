@@ -9,7 +9,7 @@
 #import "TCRItemListViewController.h"
 #import "AppDelegate.h"
 #import "TCRPersistentStack.h"
-#import "TCRItemOM.h"
+#import "TCRItem.h"
 @interface TCRItemListViewController ()
 
 -(NSNumber *)randomItemNumber;
@@ -22,7 +22,7 @@
     [super viewDidLoad];
     self.navigationItem.leftBarButtonItem = self.editButtonItem;
     
-    UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
+    UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewItem:)];
     self.navigationItem.rightBarButtonItem = addButton;
 }
 
@@ -49,7 +49,7 @@
 }
 
 - (void)configureCell:(UITableViewCell *)cell atIndexPath:(NSIndexPath *)indexPath {
-    TCRItemOM *item = [self.fetchedResultsController objectAtIndexPath:indexPath];
+    TCRItem *item = [self.fetchedResultsController objectAtIndexPath:indexPath];
     cell.textLabel.text = [item.itemNumber stringValue];
     cell.detailTextLabel.text = item.itemDescription;
 }
@@ -81,7 +81,7 @@
  - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
      if ([[segue identifier] isEqualToString:@"showItemDetail"]) {
          NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-         TCRItemOM *item = [[self fetchedResultsController] objectAtIndexPath:indexPath];
+         TCRItem *item = [[self fetchedResultsController] objectAtIndexPath:indexPath];
          TCRItemDetailViewController *controller = (TCRItemDetailViewController *)[segue destinationViewController];
          [controller setItem:item];
          controller.navigationItem.leftItemsSupplementBackButton = YES;
@@ -179,7 +179,7 @@
     [self.tableView endUpdates];
 }
 
-- (void)insertNewObject:(id)sender {
+- (void)insertNewItem:(id)sender {
     NSManagedObjectContext *context = [self.fetchedResultsController managedObjectContext];
     NSEntityDescription *entity = [[self.fetchedResultsController fetchRequest] entity];
     NSManagedObject *newManagedObject = [NSEntityDescription insertNewObjectForEntityForName:[entity name] inManagedObjectContext:context];

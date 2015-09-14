@@ -13,18 +13,6 @@
 		AA4EDA051B96F288001590AB /* TCRItemDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4EDA031B96F288001590AB /* TCRItemDetailViewController.m */; settings = {ASSET_TAGS = (); }; };
 		AA4EDA081B972567001590AB /* TCRItemListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4EDA071B972567001590AB /* TCRItemListViewCell.m */; settings = {ASSET_TAGS = (); }; };
 		AA4EDA091B972567001590AB /* TCRItemListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4EDA071B972567001590AB /* TCRItemListViewCell.m */; settings = {ASSET_TAGS = (); }; };
-		AAB0EBB51B984694004F4265 /* TCRDepartmentOM+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB0EBAA1B984694004F4265 /* TCRDepartmentOM+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
-		AAB0EBB61B984694004F4265 /* TCRDepartmentOM+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB0EBAA1B984694004F4265 /* TCRDepartmentOM+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
-		AAB0EBB71B984694004F4265 /* TCRDepartmentOM.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB0EBAC1B984694004F4265 /* TCRDepartmentOM.m */; settings = {ASSET_TAGS = (); }; };
-		AAB0EBB81B984694004F4265 /* TCRDepartmentOM.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB0EBAC1B984694004F4265 /* TCRDepartmentOM.m */; settings = {ASSET_TAGS = (); }; };
-		AAB0EBB91B984694004F4265 /* TCRItemOM+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB0EBAE1B984694004F4265 /* TCRItemOM+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
-		AAB0EBBA1B984694004F4265 /* TCRItemOM+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB0EBAE1B984694004F4265 /* TCRItemOM+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
-		AAB0EBBB1B984694004F4265 /* TCRItemOM.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB0EBB01B984694004F4265 /* TCRItemOM.m */; settings = {ASSET_TAGS = (); }; };
-		AAB0EBBC1B984694004F4265 /* TCRItemOM.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB0EBB01B984694004F4265 /* TCRItemOM.m */; settings = {ASSET_TAGS = (); }; };
-		AAB0EBBD1B984694004F4265 /* TCRDateOM+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB0EBB21B984694004F4265 /* TCRDateOM+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
-		AAB0EBBE1B984694004F4265 /* TCRDateOM+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB0EBB21B984694004F4265 /* TCRDateOM+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
-		AAB0EBBF1B984694004F4265 /* TCRDateOM.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB0EBB41B984694004F4265 /* TCRDateOM.m */; settings = {ASSET_TAGS = (); }; };
-		AAB0EBC01B984694004F4265 /* TCRDateOM.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB0EBB41B984694004F4265 /* TCRDateOM.m */; settings = {ASSET_TAGS = (); }; };
 		AAB0EBC81B986221004F4265 /* TCRDateListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB0EBC71B986221004F4265 /* TCRDateListViewController.m */; settings = {ASSET_TAGS = (); }; };
 		AAB0EBC91B986221004F4265 /* TCRDateListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB0EBC71B986221004F4265 /* TCRDateListViewController.m */; settings = {ASSET_TAGS = (); }; };
 		AAE05B421B95C29B00EBA238 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE05B411B95C29B00EBA238 /* main.m */; };
@@ -39,6 +27,12 @@
 		AAE05B761B95C42800EBA238 /* TCRPersistentStack.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE05B741B95C42800EBA238 /* TCRPersistentStack.m */; settings = {ASSET_TAGS = (); }; };
 		AAE05B7A1B95E23B00EBA238 /* TCRApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AAE05B781B95E23B00EBA238 /* TCRApp.xcdatamodeld */; settings = {ASSET_TAGS = (); }; };
 		AAE05B7B1B95E23B00EBA238 /* TCRApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AAE05B781B95E23B00EBA238 /* TCRApp.xcdatamodeld */; settings = {ASSET_TAGS = (); }; };
+		AAFD66041BA43E6B004C1EA2 /* TCRItem+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFD65F91BA43E6B004C1EA2 /* TCRItem+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
+		AAFD66051BA43E6B004C1EA2 /* TCRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFD65FB1BA43E6B004C1EA2 /* TCRItem.m */; settings = {ASSET_TAGS = (); }; };
+		AAFD66061BA43E6B004C1EA2 /* TCRDate+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFD65FD1BA43E6B004C1EA2 /* TCRDate+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
+		AAFD66071BA43E6B004C1EA2 /* TCRDate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFD65FF1BA43E6B004C1EA2 /* TCRDate.m */; settings = {ASSET_TAGS = (); }; };
+		AAFD66081BA43E6B004C1EA2 /* TCRDepartment+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFD66011BA43E6B004C1EA2 /* TCRDepartment+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
+		AAFD66091BA43E6B004C1EA2 /* TCRDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFD66031BA43E6B004C1EA2 /* TCRDepartment.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,18 +59,6 @@
 		AA4EDA031B96F288001590AB /* TCRItemDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCRItemDetailViewController.m; sourceTree = "<group>"; };
 		AA4EDA061B972567001590AB /* TCRItemListViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCRItemListViewCell.h; sourceTree = "<group>"; };
 		AA4EDA071B972567001590AB /* TCRItemListViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCRItemListViewCell.m; sourceTree = "<group>"; };
-		AAB0EBA91B984694004F4265 /* TCRDepartmentOM+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TCRDepartmentOM+CoreDataProperties.h"; sourceTree = "<group>"; };
-		AAB0EBAA1B984694004F4265 /* TCRDepartmentOM+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TCRDepartmentOM+CoreDataProperties.m"; sourceTree = "<group>"; };
-		AAB0EBAB1B984694004F4265 /* TCRDepartmentOM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCRDepartmentOM.h; sourceTree = "<group>"; };
-		AAB0EBAC1B984694004F4265 /* TCRDepartmentOM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCRDepartmentOM.m; sourceTree = "<group>"; };
-		AAB0EBAD1B984694004F4265 /* TCRItemOM+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TCRItemOM+CoreDataProperties.h"; sourceTree = "<group>"; };
-		AAB0EBAE1B984694004F4265 /* TCRItemOM+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TCRItemOM+CoreDataProperties.m"; sourceTree = "<group>"; };
-		AAB0EBAF1B984694004F4265 /* TCRItemOM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCRItemOM.h; sourceTree = "<group>"; };
-		AAB0EBB01B984694004F4265 /* TCRItemOM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCRItemOM.m; sourceTree = "<group>"; };
-		AAB0EBB11B984694004F4265 /* TCRDateOM+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TCRDateOM+CoreDataProperties.h"; sourceTree = "<group>"; };
-		AAB0EBB21B984694004F4265 /* TCRDateOM+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TCRDateOM+CoreDataProperties.m"; sourceTree = "<group>"; };
-		AAB0EBB31B984694004F4265 /* TCRDateOM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCRDateOM.h; sourceTree = "<group>"; };
-		AAB0EBB41B984694004F4265 /* TCRDateOM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCRDateOM.m; sourceTree = "<group>"; };
 		AAB0EBC61B986221004F4265 /* TCRDateListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCRDateListViewController.h; sourceTree = "<group>"; };
 		AAB0EBC71B986221004F4265 /* TCRDateListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCRDateListViewController.m; sourceTree = "<group>"; };
 		AAE05B3D1B95C29B00EBA238 /* The Code Report.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Code Report.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,6 +80,18 @@
 		AAE05B731B95C42800EBA238 /* TCRPersistentStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCRPersistentStack.h; sourceTree = "<group>"; };
 		AAE05B741B95C42800EBA238 /* TCRPersistentStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCRPersistentStack.m; sourceTree = "<group>"; };
 		AAE05B791B95E23B00EBA238 /* TCRApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TCRApp.xcdatamodel; sourceTree = "<group>"; };
+		AAFD65F81BA43E6B004C1EA2 /* TCRItem+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TCRItem+CoreDataProperties.h"; sourceTree = "<group>"; };
+		AAFD65F91BA43E6B004C1EA2 /* TCRItem+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TCRItem+CoreDataProperties.m"; sourceTree = "<group>"; };
+		AAFD65FA1BA43E6B004C1EA2 /* TCRItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCRItem.h; sourceTree = "<group>"; };
+		AAFD65FB1BA43E6B004C1EA2 /* TCRItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCRItem.m; sourceTree = "<group>"; };
+		AAFD65FC1BA43E6B004C1EA2 /* TCRDate+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TCRDate+CoreDataProperties.h"; sourceTree = "<group>"; };
+		AAFD65FD1BA43E6B004C1EA2 /* TCRDate+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TCRDate+CoreDataProperties.m"; sourceTree = "<group>"; };
+		AAFD65FE1BA43E6B004C1EA2 /* TCRDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCRDate.h; sourceTree = "<group>"; };
+		AAFD65FF1BA43E6B004C1EA2 /* TCRDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCRDate.m; sourceTree = "<group>"; };
+		AAFD66001BA43E6B004C1EA2 /* TCRDepartment+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TCRDepartment+CoreDataProperties.h"; sourceTree = "<group>"; };
+		AAFD66011BA43E6B004C1EA2 /* TCRDepartment+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TCRDepartment+CoreDataProperties.m"; sourceTree = "<group>"; };
+		AAFD66021BA43E6B004C1EA2 /* TCRDepartment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCRDepartment.h; sourceTree = "<group>"; };
+		AAFD66031BA43E6B004C1EA2 /* TCRDepartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCRDepartment.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,18 +137,18 @@
 		AAB0EBC11B9846A0004F4265 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				AAB0EBA91B984694004F4265 /* TCRDepartmentOM+CoreDataProperties.h */,
-				AAB0EBAA1B984694004F4265 /* TCRDepartmentOM+CoreDataProperties.m */,
-				AAB0EBAB1B984694004F4265 /* TCRDepartmentOM.h */,
-				AAB0EBAC1B984694004F4265 /* TCRDepartmentOM.m */,
-				AAB0EBAD1B984694004F4265 /* TCRItemOM+CoreDataProperties.h */,
-				AAB0EBAE1B984694004F4265 /* TCRItemOM+CoreDataProperties.m */,
-				AAB0EBAF1B984694004F4265 /* TCRItemOM.h */,
-				AAB0EBB01B984694004F4265 /* TCRItemOM.m */,
-				AAB0EBB11B984694004F4265 /* TCRDateOM+CoreDataProperties.h */,
-				AAB0EBB21B984694004F4265 /* TCRDateOM+CoreDataProperties.m */,
-				AAB0EBB31B984694004F4265 /* TCRDateOM.h */,
-				AAB0EBB41B984694004F4265 /* TCRDateOM.m */,
+				AAFD65F81BA43E6B004C1EA2 /* TCRItem+CoreDataProperties.h */,
+				AAFD65F91BA43E6B004C1EA2 /* TCRItem+CoreDataProperties.m */,
+				AAFD65FA1BA43E6B004C1EA2 /* TCRItem.h */,
+				AAFD65FB1BA43E6B004C1EA2 /* TCRItem.m */,
+				AAFD65FC1BA43E6B004C1EA2 /* TCRDate+CoreDataProperties.h */,
+				AAFD65FD1BA43E6B004C1EA2 /* TCRDate+CoreDataProperties.m */,
+				AAFD65FE1BA43E6B004C1EA2 /* TCRDate.h */,
+				AAFD65FF1BA43E6B004C1EA2 /* TCRDate.m */,
+				AAFD66001BA43E6B004C1EA2 /* TCRDepartment+CoreDataProperties.h */,
+				AAFD66011BA43E6B004C1EA2 /* TCRDepartment+CoreDataProperties.m */,
+				AAFD66021BA43E6B004C1EA2 /* TCRDepartment.h */,
+				AAFD66031BA43E6B004C1EA2 /* TCRDepartment.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -365,21 +359,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAB0EBBD1B984694004F4265 /* TCRDateOM+CoreDataProperties.m in Sources */,
 				AAE05B481B95C29B00EBA238 /* TCRHomeViewController.m in Sources */,
+				AAFD66081BA43E6B004C1EA2 /* TCRDepartment+CoreDataProperties.m in Sources */,
 				AAE05B7A1B95E23B00EBA238 /* TCRApp.xcdatamodeld in Sources */,
 				AA4EDA041B96F288001590AB /* TCRItemDetailViewController.m in Sources */,
 				AAE05B451B95C29B00EBA238 /* AppDelegate.m in Sources */,
+				AAFD66041BA43E6B004C1EA2 /* TCRItem+CoreDataProperties.m in Sources */,
+				AAFD66071BA43E6B004C1EA2 /* TCRDate.m in Sources */,
+				AAFD66061BA43E6B004C1EA2 /* TCRDate+CoreDataProperties.m in Sources */,
+				AAFD66051BA43E6B004C1EA2 /* TCRItem.m in Sources */,
 				AAB0EBC81B986221004F4265 /* TCRDateListViewController.m in Sources */,
 				AAE05B421B95C29B00EBA238 /* main.m in Sources */,
-				AAB0EBB71B984694004F4265 /* TCRDepartmentOM.m in Sources */,
-				AAB0EBBF1B984694004F4265 /* TCRDateOM.m in Sources */,
-				AAB0EBBB1B984694004F4265 /* TCRItemOM.m in Sources */,
-				AAB0EBB91B984694004F4265 /* TCRItemOM+CoreDataProperties.m in Sources */,
 				AAE05B751B95C42800EBA238 /* TCRPersistentStack.m in Sources */,
 				AA4EDA001B96EDCD001590AB /* TCRItemListViewController.m in Sources */,
+				AAFD66091BA43E6B004C1EA2 /* TCRDepartment.m in Sources */,
 				AA4EDA081B972567001590AB /* TCRItemListViewCell.m in Sources */,
-				AAB0EBB51B984694004F4265 /* TCRDepartmentOM+CoreDataProperties.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,18 +382,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAE05B5B1B95C29B00EBA238 /* The_Code_ReportTests.m in Sources */,
-				AAB0EBC01B984694004F4265 /* TCRDateOM.m in Sources */,
 				AA4EDA091B972567001590AB /* TCRItemListViewCell.m in Sources */,
 				AA4EDA011B96EDCD001590AB /* TCRItemListViewController.m in Sources */,
-				AAB0EBBE1B984694004F4265 /* TCRDateOM+CoreDataProperties.m in Sources */,
 				AAE05B7B1B95E23B00EBA238 /* TCRApp.xcdatamodeld in Sources */,
 				AAE05B761B95C42800EBA238 /* TCRPersistentStack.m in Sources */,
-				AAB0EBB81B984694004F4265 /* TCRDepartmentOM.m in Sources */,
 				AA4EDA051B96F288001590AB /* TCRItemDetailViewController.m in Sources */,
-				AAB0EBBA1B984694004F4265 /* TCRItemOM+CoreDataProperties.m in Sources */,
-				AAB0EBBC1B984694004F4265 /* TCRItemOM.m in Sources */,
 				AAB0EBC91B986221004F4265 /* TCRDateListViewController.m in Sources */,
-				AAB0EBB61B984694004F4265 /* TCRDepartmentOM+CoreDataProperties.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

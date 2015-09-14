@@ -9,12 +9,14 @@
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
 
-@class TCRItemOM;
+@class TCRItem;
+@class TCRDate;
 
 @interface TCRDateListViewController : UITableViewController <NSFetchedResultsControllerDelegate>
 
 @property (strong, nonatomic) NSFetchedResultsController *fetchedResultsController;
-@property (strong, nonatomic) TCRItemOM *item;
+@property (strong, nonatomic) TCRItem *item;
+@property (strong, nonatomic) TCRDate *date;
 
 
 @end

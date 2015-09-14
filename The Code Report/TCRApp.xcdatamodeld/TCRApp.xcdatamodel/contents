@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="8193.2" systemVersion="14E46" minimumToolsVersion="Xcode 7.0">
-    <entity name="Date" representedClassName="TCRDateOM" syncable="YES">
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="8195" systemVersion="15A282b" minimumToolsVersion="Xcode 7.0">
+    <entity name="Date" representedClassName="TCRDate" syncable="YES">
         <attribute name="expDate" optional="YES" attributeType="Date" syncable="YES"/>
-        <relationship name="itemForDate" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Item" inverseName="itemExpDates" inverseEntity="Item" syncable="YES"/>
+        <relationship name="itemsThatExpire" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Item" inverseName="itemExpDates" inverseEntity="Item" syncable="YES"/>
     </entity>
-    <entity name="Department" representedClassName="TCRDepartmentOM" syncable="YES">
+    <entity name="Department" representedClassName="TCRDepartment" syncable="YES">
         <attribute name="dptName" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="dptNumber" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
         <relationship name="dptItems" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Item" inverseName="itemDpt" inverseEntity="Item" syncable="YES"/>
     </entity>
-    <entity name="Item" representedClassName="TCRItemOM" syncable="YES">
+    <entity name="Item" representedClassName="TCRItem" syncable="YES">
         <attribute name="itemDescription" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="itemNumber" optional="YES" attributeType="Double" minValueString="0" maxValueString="9999999" defaultValueString="0.0" syncable="YES"/>
         <attribute name="lastUpdated" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="pendingDelete" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
         <relationship name="itemDpt" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Department" inverseName="dptItems" inverseEntity="Department" syncable="YES"/>
-        <relationship name="itemExpDates" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Date" inverseName="itemForDate" inverseEntity="Date" syncable="YES"/>
+        <relationship name="itemExpDates" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Date" inverseName="itemsThatExpire" inverseEntity="Date" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Item" positionX="-63" positionY="-18" width="128" height="135"/>
-        <element name="Date" positionX="-63" positionY="9" width="128" height="75"/>
-        <element name="Department" positionX="-54" positionY="18" width="128" height="90"/>
+        <element name="Date" positionX="-63" positionY="9" width="128" height="73"/>
+        <element name="Department" positionX="-29" positionY="-108" width="128" height="90"/>
+        <element name="Item" positionX="268" positionY="-72" width="128" height="133"/>
     </elements>
 </model>

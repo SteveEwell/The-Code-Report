@@ -7,7 +7,7 @@
 //
 
 #import "TCRItemDetailViewController.h"
-#import "TCRItemOM.h"
+#import "TCRItem.h"
 
 @interface TCRItemDetailViewController ()
 
@@ -46,7 +46,7 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if ([[segue identifier] isEqualToString:@"embededSegue"]) {
-        TCRItemOM *segueItem = self.item;
+        TCRItem *segueItem = self.item;
         self.dateListViewControllerNC = segue.destinationViewController;
         self.dateListViewController = (TCRDateListViewController *)[self.dateListViewControllerNC visibleViewController];
         [self.dateListViewController setItem:segueItem];

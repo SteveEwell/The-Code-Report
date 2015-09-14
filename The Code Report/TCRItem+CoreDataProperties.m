@@ -1,23 +1,23 @@
 //
-//  TCRItemOM+CoreDataProperties.m
+//  TCRItem+CoreDataProperties.m
 //  The Code Report
 //
-//  Created by Steve Ewell on 9/3/15.
+//  Created by Steve Ewell on 9/12/15.
 //  Copyright © 2015 Steve Ewell. All rights reserved.
 //
 //  Choose "Create NSManagedObject Subclass…" from the Core Data editor menu
 //  to delete and recreate this implementation file for your updated model.
 //
 
-#import "TCRItemOM+CoreDataProperties.h"
+#import "TCRItem+CoreDataProperties.h"
 
-@implementation TCRItemOM (CoreDataProperties)
+@implementation TCRItem (CoreDataProperties)
 
 @dynamic itemDescription;
 @dynamic itemNumber;
-@dynamic pendingDelete;
 @dynamic lastUpdated;
-@dynamic itemExpDates;
+@dynamic pendingDelete;
 @dynamic itemDpt;
+@dynamic itemExpDates;
 
 @end
