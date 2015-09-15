@@ -16,7 +16,6 @@
 
 @property (strong, nonatomic) TCRItemDetailViewController *itemDetailViewController;
 @property (strong, nonatomic) TCRItem *item;
-
 @property (strong, nonatomic) NSFetchedResultsController *fetchedResultsController;
 
 @end

@@ -12,6 +12,8 @@
 #import "TCRItem.h"
 @interface TCRItemListViewController ()
 
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *addItem;
+
 -(NSNumber *)randomItemNumber;
 
 @end
@@ -22,13 +24,28 @@
     [super viewDidLoad];
     self.navigationItem.leftBarButtonItem = self.editButtonItem;
     
-    UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewItem:)];
-    self.navigationItem.rightBarButtonItem = addButton;
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - Navigation
+
+-(IBAction)unwindToItemList:(UIStoryboardSegue *)segue {
+    
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([[segue identifier] isEqualToString:@"showItemDetail"]) {
+        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+        TCRItem *item = [[self fetchedResultsController] objectAtIndexPath:indexPath];
+        TCRItemDetailViewController *controller = (TCRItemDetailViewController *)[segue destinationViewController];
+        [controller setItem:item];
+        controller.navigationItem.leftItemsSupplementBackButton = YES;
+    }
 }
 
 #pragma mark - Table view data source
@@ -76,17 +93,6 @@
     }
 }
 
-#pragma mark - Navigation
-
- - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-     if ([[segue identifier] isEqualToString:@"showItemDetail"]) {
-         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-         TCRItem *item = [[self fetchedResultsController] objectAtIndexPath:indexPath];
-         TCRItemDetailViewController *controller = (TCRItemDetailViewController *)[segue destinationViewController];
-         [controller setItem:item];
-         controller.navigationItem.leftItemsSupplementBackButton = YES;
-     }
- }
 
 #pragma mark - Fetched results controller
 
